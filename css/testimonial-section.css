@@ -1,0 +1,213 @@
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #ffffff;
+  border-top-width: 24px;
+  border-top-style: solid;
+  border-color: var(--brand-primary);
+  width: 100%;
+}
+
+.testimonial .div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 48px 0px 36px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  max-width: 1200px;
+}
+
+.testimonial .quote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 48px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.testimonial .quote-marks {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.testimonial .quote-text {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--font-title);
+  font-weight: var(--font-weight-bold);
+  color: #000000;
+  font-size: 56px;
+  letter-spacing: 0;
+  line-height: Truepx;
+}
+
+.testimonial .author-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 13.97px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.testimonial .avatar {
+  position: relative;
+  width: 60.72px;
+  height: 58.25px;
+  border-radius: 9358.75px;
+  background-image: url(../img/avatar-1.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.testimonial .author-info {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10.48px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.testimonial .author-name {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.58px;
+  font-family: var(--font-title);
+  font-weight: var(--font-weight-regular);
+  color: #000000;
+  font-size: 32.3px;
+  letter-spacing: 0;
+  line-height: Truepx;
+  white-space: nowrap;
+}
+
+.testimonial .author-position {
+  position: relative;
+  width: fit-content;
+  font-family: var(--font-title);
+  font-weight: var(--font-weight-regular);
+  color: #000000;
+  font-size: 32.3px;
+  letter-spacing: 0;
+  line-height: Truepx;
+  white-space: nowrap;
+}
+
+/* Testimonial-2 */
+
+.testimonial-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  gap: 76px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  padding-bottom: 48px;
+  flex: 0 0 auto;
+}
+
+.testimonial-2 .testimonial-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  padding: 48px 0px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 1;
+  flex-grow: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonial-2 .quotation-marks {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.testimonial-2 .testimonial-text {
+  position: relative;
+  align-self: stretch;
+  font-family: "Geist-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: Truepx;
+}
+
+.testimonial-2 .testimonial-footer {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.testimonial-2 .avatar {
+  position: relative;
+  width: 60.72px;
+  height: 58.25px;
+  border-radius: 9358.75px;
+  background-image: url(../img/avatar-2.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.testimonial-2 .testimonial-info {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10.48px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.testimonial-2 .testimonial-name {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.58px;
+  font-family: "Geist-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: Truepx;
+  white-space: nowrap;
+}
+
+.testimonial-2 .testimonial-company {
+  position: relative;
+  width: fit-content;
+  font-family: "Geist-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: Truepx;
+  white-space: nowrap;
+}
+
+.testimonial-2 .decorative-boxes {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-top: -91.57px;
+}

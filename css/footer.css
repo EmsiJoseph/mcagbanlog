@@ -1,0 +1,123 @@
+/* Footer Section */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  background-color: var(--brand-dark);
+  color: #ffffff;
+  width: 100%;
+  padding: 48px 0 0 0;
+}
+
+/* Footer Content */
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Footer Description */
+.footer-description {
+  flex: 1;
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-regular);
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ffffff;
+  max-width: 1200px;
+}
+
+/* Footer Social Links */
+.footer-social-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-social-icon {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.footer-social-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Footer Navigation */
+.footer-nav {
+  flex-direction: column;
+  gap: 16px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.footer-nav-title {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-bold);
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-nav-link {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-regular);
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-nav-link:hover {
+  color: var(--brand-primary);
+}
+
+/* Footer Bottom Bar */
+.footer-divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer-bottom-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 48px;
+  max-width: 1200px;
+}
+
+.footer-bottom-text {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-regular);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-bottom-link {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-regular);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom-link:hover {
+  color: #ffffff;
+}

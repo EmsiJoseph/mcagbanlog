@@ -1,0 +1,39 @@
+/* Brand Colors */
+:root {
+  --brand-primary: rgba(63, 138, 202, 1);
+  --brand-success: rgb(29, 156, 59);
+  --brand-danger: rgba(239, 59, 37, 1);
+  --brand-warning: rgba(248, 151, 29, 1);
+  --brand-dark: rgba(19, 53, 86, 1);
+  --brand-secondary: rgba(14, 67, 112, 1);
+  
+  /* Neutral Tones */
+  --neutral-light: rgba(250, 250, 250, 1);
+  --neutral-gray: rgba(143, 143, 143, 1);
+  --neutral-dark: rgba(17, 17, 17, 1);
+  --neutral-muted: rgba(186, 188, 190, 1);
+  --neutral-soft: rgba(233, 233, 233, 1);
+
+  /* Accent Colors */
+  --accent-purple: rgba(120, 32, 188, 1);
+  --accent-blue: rgba(0, 104, 214, 1);
+  --accent-orange: rgba(255, 96, 88, 1);
+
+  /* Typography Styles */
+  --font-title: "Geist", Helvetica, sans-serif;
+  --font-body: "Inter", Helvetica, sans-serif;
+  --font-mono: "Roboto Mono", monospace;
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+
+  /* Shadows */
+  --shadow-xl: 0 10px 10px -5px rgba(0, 0, 0, 0.04), 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+
+  /* Heading Styles */
+  --heading-1-size: 64px;
+  --heading-2-size: 56px;
+  --heading-3-size: 48px;
+  --heading-line-height: normal;
+  --heading-letter-spacing: 0;
+}

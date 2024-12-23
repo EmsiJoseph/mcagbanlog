@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/about-section.css" />
+    <link rel="stylesheet" href="css/testimonial-section.css" />
+    <link rel="stylesheet" href="css/faq-section.css" />
+    <link rel="stylesheet" href="css/work-section.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/hero-section.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/styleguide.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/connect-section.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="nav">
+      <div class="nav-inner">
+        <div class="logo-container">
+          <img src="img/logo-2.svg" alt="Logo" class="logo" />
+        </div>
+        <div class="hamburger-menu" onclick="toggleNavbar()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="navbar">
+          <a href="#work" class="nav-link">Work</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#faqs" class="nav-link">FAQs</a>
+          <a href="#connect" class="nav-link">Connect</a>
+        </nav>
+        <nav class="navbar-mobile">
+          <a href="#work" class="nav-link">Work</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#faqs" class="nav-link">FAQs</a>
+          <a href="#connect" class="nav-link">Connect</a>
+          <button class="cta">Start Your Project</button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            Where Ideas Meet
+            <span class="hero-title-highlight">Excellence</span>.
+          </h1>
+          <p class="hero-subtitle">
+            I am Mc Agbanlog (Emsi-emsi), a Creative Designer based in Metro
+            Manila, Philippines.
+          </p>
+          <div class="cta">
+            <button class="cta-text">Request Site Audit — It's Free</button>
+          </div>
+        </div>
+        <div class="hero-image-container">
+          <img src="img/hero-image.svg" alt="Hero Image" class="hero-image" />
+        </div>
+      </div>
+    </section>
+    <div class="division-orange"></div>
+
+    <!-- Featured Work Section -->
+    <section class="featured-work-section" id="work">
+      <!-- Title Carousel -->
+      <div class="title-carousel-featured">
+        <div class="title-content-featured">
+          <h2 class="featured-title">
+            Featured Work • Featured Work • Featured Work •
+          </h2>
+          <h2 class="featured-title">
+            Featured Work • Featured Work • Featured Work •
+          </h2>
+        </div>
+      </div>
+
+      <!-- Project Grid -->
+      <div class="project-grid">
+        <!-- Project Card 1 -->
+        <div class="project-card">
+          <img
+            src="img/placeholder.svg"
+            alt="Project Image"
+            class="project-image"
+          />
+          <div class="project-content">
+            <h3 class="project-title">Scholarlink</h3>
+            <p class="project-description">
+              Lorem ipsum dolor sit amet, consectetur
+            </p>
+          </div>
+          <img
+            src="img/arrow-icon-3.svg"
+            alt="View Project"
+            class="project-arrow"
+          />
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="project-card" style="background-color: #fec43f">
+          <img
+            src="img/placeholder.svg"
+            alt="Project Image"
+            class="project-image"
+          />
+          <div class="project-content">
+            <h3 class="project-title" style="color: black">Pahiram</h3>
+            <p class="project-description" style="color: black">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a nibh
+              at tellus vulputate accumsan id sit amet arcu. Phasellus sapien
+              lacus, pellentesque nec semper nec, iaculis vel est.
+            </p>
+          </div>
+          <img
+            src="img/arrow-icon.svg"
+            alt="View Project"
+            class="project-arrow"
+          />
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="project-card" style="background-color: #c383d9">
+          <img
+            src="img/placeholder-3.svg"
+            alt="Graphic Design Image"
+            class="project-image"
+          />
+          <div class="project-content">
+            <h3 class="project-title">I do Graphic Design too!</h3>
+            <p class="project-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a nibh
+              at tellus vulputate accumsan id sit.
+            </p>
+          </div>
+          <img
+            src="img/arrow-icon-2.svg"
+            alt="View Project"
+            class="project-arrow"
+          />
+        </div>
+
+        <!-- Self Card -->
+        <div class="self-card">
+          <img class="logo" src="img/logo.svg" />
+          <p class="card-content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+          <button class="btn">
+            <div class="btn-text">Click to know more</div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section" id="benefits"></section>
+
+    <!-- Testimonial-1 -->
+    <section class="testimonial">
+      <div class="div">
+        <div class="quote-container">
+          <img class="quote-marks" src="img/quotation-marks.svg" />
+          <p class="quote-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+        <div class="author-container">
+          <div class="avatar"></div>
+          <div class="author-info">
+            <div class="author-name">Claire Paul</div>
+            <div class="author-position">Position in Company</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <!-- Title Carousel -->
+      <div class="title-carousel-about">
+        <div class="title-content-about">
+          <h2 class="about-me-title">
+            About Mc • About Mc • About Mc • About Mc •
+          </h2>
+          <h2 class="about-me-title">
+            About Mc • About Mc • About Mc • About Mc •
+          </h2>
+        </div>
+      </div>
+
+      <!-- About Content -->
+      <div class="about-content">
+        <img
+          src="img/about-img.svg"
+          alt="Mc Joseph Agbanlog"
+          class="about-image"
+        />
+        <div class="about-text">
+          <h2 class="about-header">Meet Your Next Business</h2>
+          <h2 class="highlight">Partner</h2>
+          <p class="about-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <br /><br />
+            Phasellus sapien lacus, pellentesque nec semper nec, iaculis vel
+            est.<br /><br />
+            Nam mattis placerat urna. Integer dapibus lorem mauris, sed
+            scelerisque ligula iaculis eget.
+          </p>
+          <div class="cta">
+            <button class="cta-text">Request Site Audit — It's Free</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial-2 -->
+    <section class="testimonial-2">
+      <div class="testimonial-content">
+        <img class="quotation-marks" src="img/quotation-marks.svg" />
+        <p class="testimonial-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+      <div class="testimonial-footer">
+        <div class="avatar"></div>
+        <div class="testimonial-info">
+          <div class="testimonial-name">Alexis Pria</div>
+          <div class="testimonial-company">Position in Company</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section class="faq-section" id="faqs">
+      <div class="faq-header">
+        <h2 class="faq-title">Frequently Asked Questions</h2>
+      </div>
+
+      <!-- FAQ List -->
+      <div class="faq-list">
+        <!-- FAQ Item 1 -->
+        <div class="faq-item">
+          <p class="faq-question">Lorem ipsum dolor sit amet?</p>
+          <img src="img/plus-icon.svg" alt="Expand Answer" class="faq-icon" />
+        </div>
+
+        <!-- FAQ Item 2 -->
+        <div class="faq-item">
+          <p class="faq-question">Consectetur adipiscing elit?</p>
+          <img src="img/plus-icon.svg" alt="Expand Answer" class="faq-icon" />
+        </div>
+
+        <!-- FAQ Item 3 -->
+        <div class="faq-item">
+          <p class="faq-question">Sed do ut labore et dolore magna aliqua?</p>
+          <img src="img/plus-icon.svg" alt="Expand Answer" class="faq-icon" />
+        </div>
+
+        <!-- FAQ Item 4 -->
+        <div class="faq-item">
+          <p class="faq-question">
+            Ut enim ut aliquip ex ea commodo consequat?
+          </p>
+          <img src="img/plus-icon.svg" alt="Expand Answer" class="faq-icon" />
+        </div>
+      </div>
+
+      <!-- Additional Questions -->
+      <div class="faq-additional">
+        <p class="faq-additional-text">
+          Still got more questions? Feel free to ask
+        </p>
+        <button class="faq-additional-button">Get Answers</button>
+      </div>
+    </section>
+
+    <!-- Connect Section -->
+    <div class="connect-section" id="connect">
+      <div class="separator-icons"></div>
+      <div class="content-section">
+        <div class="cta-wrapper">
+          <div class="cta-btn">
+            <img class="arrow-right" src="img/arrow-right.svg" />
+            <div class="cta-text">Lets connect</div>
+          </div>
+          <div class="text-section">
+            <p class="text">Btw, here's a fancy sheet of paper.</p>
+            <div class="resume-link">
+              <img class="icon-redirect" src="img/icon-redirect.svg" />
+              <div class="text-wrapper">My Resume</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="connect-form-container">
+          <h2 class="form-title">
+            Ready to <span class="highlight">level up</span> your business?
+          </h2>
+          <p class="form-subtitle">
+            Just fill out the form and I'll get back to you as soon as possible.
+          </p>
+
+          <form id="contactForm" class="contact-form">
+            <div class="name-email-row">
+              <div class="form-group">
+                <label for="name"
+                  >Your Name<span class="required">*</span></label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your name here"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email<span class="required">*</span></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="your@email.here"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="challenges"
+                >What challenges is your business facing right now?<span
+                  class="required"
+                  >*</span
+                ></label
+              >
+              <select id="challenges" name="challenges" required>
+                <option value="conversion" selected>Conversion</option>
+                <option value="traffic">Traffic</option>
+                <option value="branding">Branding</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="website"
+                >Your Website Link<span class="required">*</span></label
+              >
+              <input
+                type="text"
+                id="website"
+                name="website"
+                placeholder="example.com"
+                pattern="^([a-zA-Z0-9-]+\.)*[a-zA-Z0-9-]+\.[a-zA-Z]{2,}$"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="notes">Additional Notes</label>
+              <textarea
+                id="notes"
+                name="notes"
+                placeholder="Please share anything that can help explain the challenges your business is facing right now."
+              ></textarea>
+            </div>
+
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="privacy" name="privacy" required />
+              <label for="privacy"
+                >I have read and agree to the
+                <a href="#" class="privacy-link">Privacy Policy</a></label
+              >
+            </div>
+
+            <button type="submit" class="submit-button">
+              Submit Audit Request
+            </button>
+          </form>
+          <div class="form-message" style="display: none"></div>
+
+          <p class="alternative-contact">
+            Don't love forms? Drop me an email at
+            <a href="mailto:mcagbanlog@outlook.com" class="email-link"
+              >mcagbanlog@outlook.com</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <!-- Footer Content -->
+      <div class="footer-content">
+        <!-- Footer Description -->
+        <div class="footer-description">
+          Effective UI/UX design strategies to elevate your website, attract
+          more clients, and showcase your work beautifully.
+        </div>
+
+        <!-- Social Links -->
+        <div class="footer-social-links">
+          <a href="#" aria-label="Instagram">
+            <img
+              src="img/ig.svg"
+              alt="Instagram Icon"
+              class="footer-social-icon"
+            />
+          </a>
+          <a href="#" aria-label="Facebook">
+            <img
+              src="img/fb.svg"
+              alt="Facebook Icon"
+              class="footer-social-icon"
+            />
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <img
+              src="img/linkedin.svg"
+              alt="LinkedIn Icon"
+              class="footer-social-icon"
+            />
+          </a>
+        </div>
+      </div>
+
+      <!-- Footer Navigation -->
+      <div class="footer-nav">
+        <div class="footer-nav-title">Quick Navigation</div>
+        <a href="#work" class="footer-nav-link">Work</a>
+        <a href="#about" class="footer-nav-link">About</a>
+        <a href="#faqs" class="footer-nav-link">FAQs</a>
+        <a href="#connect" class="footer-nav-link">Connect</a>
+        <a href="#" class="footer-nav-link">Cookie Settings</a>
+      </div>
+
+      <!-- Footer Divider -->
+      <div class="footer-divider"></div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <p class="footer-bottom-text">
+          Copyright © 2024 Emsi-emsi. All rights reserved.
+        </p>
+        <a href="#" class="footer-bottom-link">Privacy Policy</a>
+      </div>
+    </footer>
+
+    <script src="js/header-animation.js"></script>
+    <script src="js/scroll-animation.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/connect-form.js"></script>
+  </body>
+</html>

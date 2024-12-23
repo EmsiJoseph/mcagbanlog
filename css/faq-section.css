@@ -1,0 +1,116 @@
+/* FAQ Section */
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 36px 0;
+}
+
+/* FAQ Header */
+.faq-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 720px;
+}
+
+.faq-title {
+  font-family: var(--font-title);
+  font-weight: var(--font-weight-bold);
+  font-size: 48px;
+  color: var(--brand-dark);
+  text-align: center;
+}
+
+/* FAQ List */
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 720px;
+}
+
+/* FAQ Item */
+.faq-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border: 1px solid var(--neutral-muted);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.3s ease
+}
+
+.faq-item:hover {
+  border-color: var(--brand-primary);
+}
+
+.faq-item:hover .faq-question {
+  color: var(--brand-primary);
+}
+
+/* Question Text */
+.faq-question {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-regular);
+  font-size: 18px;
+  color: var(--brand-dark);
+  transition: color 0.3s ease;
+}
+
+
+
+/* Plus Icon */
+.faq-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+/* Additional Questions */
+.faq-additional {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 24px;
+  width: 100%;
+  max-width: 720px;
+  background-color: var(--neutral-light);
+  border-radius: 8px;
+}
+
+.faq-additional-text {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-regular);
+  font-size: 18px;
+  color: black;
+  text-align: center;
+}
+
+.faq-additional-button {
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-medium);
+  font-size: 18px;
+  color: black;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.faq-additional-button:hover {
+  background-color: var(--brand-primary);
+  color: white;
+  border: 2px solid var(--brand-primary);
+
+}
+

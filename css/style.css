@@ -1,0 +1,39 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-secondary);
+  margin: 0;
+  padding: 0;
+}
+
+/* CTA Button */
+.cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 16px 0;
+  background-color: var(--brand-warning);
+  border: none;
+  border-radius: 9999999999px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #ffd167;
+}
+
+/* CTA Text */
+.cta-text {
+  font-family: var(--font-title);
+  font-weight: var(--font-weight-medium);
+  font-size: 18px;
+  color: #000000;
+  background: none;
+  border: none;
+  margin: 0;
+}

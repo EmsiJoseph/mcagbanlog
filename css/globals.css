@@ -1,0 +1,30 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+/* Apply global box model and font smoothing */
+* {
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+/* Remove default margins and set height for root elements */
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+/* Focus-visible styling for buttons */
+button:focus-visible {
+    outline: 2px solid var(--focus-blue);
+    outline-offset: 2px;
+}
+
+/* Remove underline from links */
+a {
+    text-decoration: none;
+}
+
+/* Custom Variables */
+:root {
+    --focus-blue: #4a90e2;
+}
