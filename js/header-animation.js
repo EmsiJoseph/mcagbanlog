@@ -16,18 +16,39 @@ window.addEventListener("scroll", () => {
   lastScrollPosition = currentScrollPosition;
 });
 
-function toggleNavbar() {
-  const navbarMobile = document.querySelector('.navbar-mobile');
-  const hamburgerMenu = document.querySelector('.hamburger-menu');
+// const hamburgerMenu = document.querySelector('.hamburger-menu');
+// const navbarMobile = document.querySelector('.navbar-mobile');
+
+// hamburgerMenu.addEventListener('click', () => {
+//   hamburgerMenu.classList.toggle('open');
+//   navbarMobile.classList.toggle('open');
+// });
+
+
+// Mobile navigation animation
+function toggleMobileNav() {
+  const mobileNav = document.querySelector('.navbar-mobile');
+  const hamburger = document.querySelector('.hamburger-menu');
+  const overlay = document.querySelector('.nav-overlay');
   
-  hamburgerMenu.classList.toggle('open');
-  navbarMobile.classList.toggle('open');
+  mobileNav.classList.toggle('open');
+  hamburger.classList.toggle('open');
+  overlay.classList.toggle('open');
+  
+  // Close menu when clicking nav links or overlay
+  const closeMenu = () => {
+    mobileNav.classList.remove('open');
+    hamburger.classList.remove('open');
+    overlay.classList.remove('open');
+  };
+  
+  const navLinks = document.querySelectorAll('.navbar-mobile .nav-link, .navbar-mobile .cta');
+  navLinks.forEach(link => link.addEventListener('click', closeMenu));
+  overlay.addEventListener('click', closeMenu);
 }
 
-const hamburgerMenu = document.querySelector('.hamburger-menu');
-const navbarMobile = document.querySelector('.navbar-mobile');
+// Add overlay div to DOM
+document.body.insertAdjacentHTML('beforeend', '<div class="nav-overlay"></div>');
 
-hamburgerMenu.addEventListener('click', () => {
-  hamburgerMenu.classList.toggle('open');
-  navbarMobile.classList.toggle('open');
-});
+// Add click event to hamburger
+document.querySelector('.hamburger-menu').addEventListener('click', toggleMobileNav);

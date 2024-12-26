@@ -192,3 +192,42 @@
   line-height: Truepx;
   white-space: nowrap;
 }
+
+@media (max-width: 768px) {
+  .featured-title,
+  .about-me-title {
+    font-size: 64px;
+  }
+
+  .project-grid {
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .project-card,
+  .self-card {
+    width: 100%;
+  }
+}
+
+
+/* Tablet Only: Adjusting columns for the Work section */
+@media (min-width: 768px) and (max-width: 1200px) {
+  .project-grid {
+    gap: 24px;
+    padding: 24px;
+  }
+
+  .project-card,
+  .self-card {
+    width: calc(50% - 12px);
+  }
+
+  .project-title {
+    font-size: 28px;
+  }
+
+  .project-description {
+    font-size: 16px;
+  }
+}

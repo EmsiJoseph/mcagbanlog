@@ -39,13 +39,13 @@
           <a href="#about" class="nav-link">About</a>
           <a href="#faqs" class="nav-link">FAQs</a>
           <a href="#connect" class="nav-link">Connect</a>
-          <button class="cta">Start Your Project</button>
+          <a href="#start-project" class="cta">Start Your Project</a>
         </nav>
       </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero-section">
+    <section class="hero-section" id="hero">
       <div class="hero-content">
         <div class="hero-text">
           <h1 class="hero-title">
@@ -57,7 +57,9 @@
             Manila, Philippines.
           </p>
           <div class="cta">
-            <button class="cta-text">Request Site Audit — It's Free</button>
+            <a href="#start-project" class="cta-text"
+              >Request Site Audit — It's Free</a
+            >
           </div>
         </div>
         <div class="hero-image-container">
@@ -68,7 +70,11 @@
     <div class="division-orange"></div>
 
     <!-- Featured Work Section -->
-    <section class="featured-work-section" id="work">
+    <section
+      class="featured-work-section"
+      id="work"
+      data-menu-color="var(--brand-dark)"
+    >
       <!-- Title Carousel -->
       <div class="title-carousel-featured">
         <div class="title-content-featured">
@@ -153,7 +159,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
           <button class="btn">
-            <div class="btn-text">Click to know more</div>
+            <div class="btn-text">Click to know me more</div>
           </button>
         </div>
       </div>
@@ -163,7 +169,11 @@
     <section class="benefits-section" id="benefits"></section>
 
     <!-- Testimonial-1 -->
-    <section class="testimonial">
+    <section
+      class="testimonial"
+      id="testimonial-1"
+      data-menu-color="var(--brand-dark)"
+    >
       <div class="div">
         <div class="quote-container">
           <img class="quote-marks" src="img/quotation-marks.svg" />
@@ -182,7 +192,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="about-section" id="about">
+    <section class="about-section">
       <!-- Title Carousel -->
       <div class="title-carousel-about">
         <div class="title-content-about">
@@ -196,7 +206,7 @@
       </div>
 
       <!-- About Content -->
-      <div class="about-content">
+      <div class="about-content" id="about" data-menu-color="var(--brand-dark)">
         <img
           src="img/about-img.svg"
           alt="Mc Joseph Agbanlog"
@@ -214,16 +224,18 @@
             scelerisque ligula iaculis eget.
           </p>
           <div class="cta">
-            <button class="cta-text">Request Site Audit — It's Free</button>
+            <a href="#start-project" class="cta-text"
+              >Request Site Audit — It's Free</a
+            >
           </div>
         </div>
       </div>
     </section>
 
     <!-- Testimonial-2 -->
-    <section class="testimonial-2">
+    <section class="testimonial-2" id="testimonial-2">
       <div class="testimonial-content">
-        <img class="quotation-marks" src="img/quotation-marks.svg" />
+        <img class="quotation-marks" src="img/quotation-marks-2.svg" />
         <p class="testimonial-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
@@ -297,10 +309,24 @@
               <div class="text-wrapper">My Resume</div>
             </div>
           </div>
+          <div class="website-showcase-container">
+            <div class="website-showcase">
+              <img
+                src="img/website-showcase.svg"
+                alt="Website Showcase"
+                class="website-showcase-image"
+              />
+            </div>
+            <div class="translucent-card">
+              <div class="card-content">
+                Upgrade your website with a fresh design and user-friendly interface for better conversion rates.
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- Contact Form -->
-        <div class="connect-form-container">
+        <div class="connect-form-container" id="start-project">
           <h2 class="form-title">
             Ready to <span class="highlight">level up</span> your business?
           </h2>
